@@ -1,0 +1,15 @@
+<span>
+<ul>
+  <li>
+    <a routerLink="/" >Myprofile</a>
+  </li>
+  <li>
+   <a routerLink="/Editprofile" >Editprofile</a>
+  </li>
+  
+</ul>
+
+</span>
+<router-outlet></router-outlet>
+<h1>{{title|uppercase|slice:2}}</h1>
+<h2>{{dateToday|date:'long'}}</h2>
